@@ -521,5 +521,25 @@ window.INITIAL_DATA={
   "centerPhoto": "assets/full-cover.png",
   "empireMigration": 1,
   "modernMigration": 2,
-  "portraitPositions": {}
+  "portraitPositions": {},
+  "heroChildren": {
+    "ivan": [
+      "ilya",
+      "denis",
+      "legacy-petr",
+      "andrey",
+      "nikolay",
+      "alena",
+      "liona",
+      "maria"
+    ]
+  },
+  "mainHeroes": [
+    "irina",
+    "petr",
+    "alena",
+    "ivan",
+    "elena",
+    "kseniya"
+  ]
 };

@@ -545,11 +545,14 @@ window.INITIAL_DATA={
       "id": "art-digital-intelligence",
       "name": "Арт диджитал интеллект",
       "parentId": "events",
-      "people": [],
+      "people": [
+        "alena"
+      ],
       "status": "В работе",
       "note": "",
       "tasks": [],
-      "materials": []
+      "materials": [],
+      "responsibleId": "alena"
     },
     {
       "id": "social-reception",

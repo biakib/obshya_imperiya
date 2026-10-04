@@ -140,7 +140,7 @@ window.INITIAL_DATA={
         "ilya",
         "denis"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "",
       "url": "",
       "status": "В работе"
@@ -154,7 +154,7 @@ window.INITIAL_DATA={
         "denis",
         "nikolay"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "Проект Ивана Егорова. Направления сверены с egorovaiki.ru.",
       "url": "https://egorovaiki.ru/",
       "status": "В работе"
@@ -320,7 +320,7 @@ window.INITIAL_DATA={
         "legacy-petr",
         "andrey"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "",
       "url": "",
       "status": "В работе"
@@ -355,7 +355,7 @@ window.INITIAL_DATA={
       "people": [
         "ilya"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "",
       "url": "",
       "status": "В работе"
@@ -388,7 +388,7 @@ window.INITIAL_DATA={
       "people": [
         "nikolay"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "",
       "url": "",
       "status": "В работе"
@@ -399,7 +399,7 @@ window.INITIAL_DATA={
       "people": [
         "nikolay"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "",
       "url": "",
       "status": "В работе"
@@ -410,7 +410,7 @@ window.INITIAL_DATA={
       "people": [
         "alena"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "",
       "url": "",
       "status": "В работе"
@@ -443,7 +443,7 @@ window.INITIAL_DATA={
       "people": [
         "alena"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "",
       "url": "",
       "status": "В работе"
@@ -454,7 +454,7 @@ window.INITIAL_DATA={
       "people": [
         "alena"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "",
       "url": "",
       "status": "В работе"
@@ -465,7 +465,7 @@ window.INITIAL_DATA={
       "people": [
         "liona"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "",
       "url": "",
       "status": "В работе"
@@ -498,7 +498,7 @@ window.INITIAL_DATA={
       "people": [
         "maria"
       ],
-      "parentId": null,
+      "parentId": "ivan-projects",
       "note": "",
       "url": "",
       "status": "В работе"
@@ -507,7 +507,7 @@ window.INITIAL_DATA={
       "id": "rubis",
       "name": "Рубис",
       "responsibleId": "ivan",
-      "parentId": null,
+      "parentId": "ivan-projects",
       "people": [
         "ivan"
       ],
@@ -515,6 +515,19 @@ window.INITIAL_DATA={
       "photo": "",
       "status": "В работе",
       "url": ""
+    },
+    {
+      "id": "ivan-projects",
+      "name": "Проекты Ивана Егорова",
+      "parentId": null,
+      "people": [
+        "ivan"
+      ],
+      "responsibleId": "ivan",
+      "note": "Проекты и направления Ивана Егорова",
+      "status": "В работе",
+      "tasks": [],
+      "materials": []
     }
   ],
   "centerPhoto": "assets/full-cover.png",

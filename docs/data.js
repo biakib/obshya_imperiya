@@ -6,7 +6,7 @@ window.INITIAL_DATA={
       "id": "vitay",
       "name": "Виталий Викторович",
       "role": "Центр карты",
-      "photo": "assets/full-vitay.png"
+      "photo": "assets/full-vitay-2.png"
     },
     {
       "id": "irina",

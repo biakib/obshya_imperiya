@@ -45,7 +45,54 @@ window.INITIAL_DATA={
       "photo": "assets/full-kseniya.png"
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "id": "artefact",
+      "name": "ARTЕФАКТ",
+      "parentId": null,
+      "people": [
+        "vitay",
+        "irina",
+        "petr",
+        "alena",
+        "ivan",
+        "elena",
+        "kseniya"
+      ],
+      "responsibleId": "alena",
+      "status": "В работе",
+      "note": "Проект Алёны Роговой",
+      "tasks": [],
+      "materials": []
+    },
+    {
+      "id": "psychology",
+      "name": "Психология",
+      "parentId": null,
+      "people": [
+        "irina"
+      ],
+      "responsibleId": "irina",
+      "status": "В работе",
+      "note": "Проект Ирины Силантьевой",
+      "tasks": [],
+      "materials": []
+    },
+    {
+      "id": "fairytale-therapy",
+      "name": "Сказкотерапия",
+      "parentId": null,
+      "people": [
+        "irina",
+        "alena"
+      ],
+      "responsibleId": "irina",
+      "status": "В работе",
+      "note": "Ирина Силантьева и Алёна Роговая",
+      "tasks": [],
+      "materials": []
+    }
+  ],
   "centerPhoto": "assets/full-cover.png",
   "empireMigration": 1,
   "modernMigration": 2,

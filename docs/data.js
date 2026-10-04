@@ -568,7 +568,7 @@ window.INITIAL_DATA={
       "materials": []
     }
   ],
-  "centerPhoto": "assets/full-cover.png",
+  "centerPhoto": "assets/full-vitay-2.png",
   "empireMigration": 1,
   "modernMigration": 2,
   "portraitPositions": {},

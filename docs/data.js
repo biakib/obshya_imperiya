@@ -97,7 +97,6 @@ window.INITIAL_DATA={
         "irina",
         "petr",
         "alena",
-        "ivan",
         "elena",
         "kseniya"
       ],

@@ -1,6 +1,6 @@
 (()=>{
 'use strict';
-const KEY='general-empire-v10',$=s=>document.querySelector(s),clone=x=>JSON.parse(JSON.stringify(x));
+const KEY='general-empire-v11',$=s=>document.querySelector(s),clone=x=>JSON.parse(JSON.stringify(x));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let data=clone(window.INITIAL_DATA);try{const saved=JSON.parse(localStorage.getItem(KEY));if(saved?.schemaVersion===4)data=saved;else{const old=JSON.parse(localStorage.getItem('project-map-v2'));data.people.forEach(p=>{const prior=old?.people?.find(o=>o.name===p.name);if(prior?.photo)p.photo=prior.photo})}}catch{}
 // Keep local edits and fill only missing portraits from the published source.
@@ -87,7 +87,7 @@ $('#mobile-feed')?.addEventListener('click',e=>{const b=e.target.closest('button
 function drawGallery(){const gallery=$('#gallery');if(gallery)gallery.innerHTML=''}
 svg.addEventListener('keydown',e=>{const tile=e.target.closest('[data-portrait]');if(!tile)return;const shifts={ArrowLeft:[-28,0],ArrowRight:[28,0],ArrowUp:[0,-28],ArrowDown:[0,28]},delta=shifts[e.key];if(delta){e.preventDefault();const p=data.portraitPositions[tile.dataset.portrait];if(!p)return;p.x+=delta[0]*(e.shiftKey?5:1);p.y+=delta[1]*(e.shiftKey?5:1);persist();drawGallery();$('#gallery').querySelector(`[data-portrait="${tile.dataset.portrait}"]`)?.focus()}});
 
-const fullPhotos=[['cover','Виталий Викторович · Главное фото'],['vitay','Виталий Викторович'],['irina','Ирина Силантьева'],['petr','Пётр Смирнов'],['alena','Алёна Роговая'],['ivan','Иван Егоров'],['elena','Елена Марченкова'],['kseniya','Ксения Макарова'],['ilya','Илья Бушманов'],['denis','Денис Круглов'],['nikolay','Николай Лунёв'],['kuznetsov','Андрей Кузнецов'],['liona','Лиона Филь'],['maria','Мария Кузнецова']];
+const fullPhotos=[['cover','Виталий Викторович · Главное фото'],['vitay','Виталий Викторович'],['irina','Ирина Силантьева'],['petr','Пётр Смирнов'],['alena','Алёна Роговая'],['ivan','Иван Егоров'],['elena','Елена Марченкова'],['kseniya','Ксения Макарова'],['ilya','Илья Бушманов'],['denis','Денис Круглов'],['nikolay','Николай Лунёв'],['kuznetsov','Андрей Кузнецов'],['liona','Лиона Филь'],['maria','Мария Кузнецова'],['petr-reshetnikov','Пётр Решетников']];
 let galleryView=false;
 function showPhotoGallery(){closeMobileMenu();galleryView=true;$('#workspace-map').classList.add('gallery-mode');$('#photo-gallery').hidden=false;$('#mode-projects').classList.remove('active');$('#mode-people').classList.remove('active');$('#mode-gallery').classList.add('active');$('#detail').classList.remove('show');$('#photo-gallery').innerHTML=`<header class="gallery-heading"><h1>Галерея</h1><p>Оригинальные фотографии · Нажмите для полного просмотра</p></header><div class="photo-grid">${fullPhotos.map(([id,name])=>`<figure><button class="gallery-photo" data-full-photo="${id}" aria-label="Открыть фото: ${esc(name)}"><img src="assets/full-${id}.png" alt="${esc(name)}" loading="lazy"></button><figcaption>${esc(name)}</figcaption></figure>`).join('')}</div>`}
 function hidePhotoGallery(){galleryView=false;$('#workspace-map').classList.remove('gallery-mode');$('#photo-gallery').hidden=true;$('#mode-gallery').classList.remove('active')}

@@ -60,7 +60,7 @@ window.INITIAL_DATA={
       "id": "legacy-petr",
       "name": "Пётр Решетников",
       "role": "Нейродетекция",
-      "photo": ""
+      "photo": "assets/full-petr-reshetnikov.png"
     },
     {
       "id": "andrey",

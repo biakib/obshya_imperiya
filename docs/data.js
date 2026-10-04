@@ -6,39 +6,43 @@ window.INITIAL_DATA={
       "id": "vitay",
       "name": "Виталий Викторович",
       "role": "Центр карты",
-      "photo": "assets/full-cover.png"
+      "photo": "assets/full-vitay.png"
     },
     {
       "id": "irina",
       "name": "Ирина Силантьева",
-      "role": "Участник"
+      "role": "Участник",
+      "photo": "assets/full-irina.png"
     },
     {
       "id": "petr",
       "name": "Пётр Смирнов",
-      "role": "Участник"
+      "role": "Участник",
+      "photo": "assets/full-petr.png"
     },
     {
       "id": "alena",
       "name": "Алёна Роговая",
       "role": "Участник",
-      "photo": "assets/alena.webp"
+      "photo": "assets/full-alena.png"
     },
     {
       "id": "ivan",
       "name": "Иван Егоров",
       "role": "Участник",
-      "photo": "assets/ivan.webp"
+      "photo": "assets/full-ivan.png"
     },
     {
       "id": "elena",
       "name": "Елена Марченкова",
-      "role": "Участник"
+      "role": "Участник",
+      "photo": "assets/full-elena.png"
     },
     {
       "id": "kseniya",
       "name": "Ксения Макарова",
-      "role": "Участник"
+      "role": "Участник",
+      "photo": "assets/full-kseniya.png"
     }
   ],
   "projects": [],

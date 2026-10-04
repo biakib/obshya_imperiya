@@ -1,6 +1,6 @@
 (()=>{
 'use strict';
-const KEY='general-empire-v6',$=s=>document.querySelector(s),clone=x=>JSON.parse(JSON.stringify(x));
+const KEY='general-empire-v7',$=s=>document.querySelector(s),clone=x=>JSON.parse(JSON.stringify(x));
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let data=clone(window.INITIAL_DATA);try{const saved=JSON.parse(localStorage.getItem(KEY));if(saved?.schemaVersion===4)data=saved;else{const old=JSON.parse(localStorage.getItem('project-map-v2'));data.people.forEach(p=>{const prior=old?.people?.find(o=>o.name===p.name);if(prior?.photo)p.photo=prior.photo})}}catch{}
 // Keep local edits and fill only missing portraits from the published source.

@@ -6,7 +6,7 @@ window.INITIAL_DATA={
       "id": "vitay",
       "name": "Виталий Викторович",
       "role": "Центр карты",
-      "photo": "assets/full-vitay-2.png"
+      "photo": "assets/full-vitay-3.png"
     },
     {
       "id": "irina",
@@ -568,7 +568,7 @@ window.INITIAL_DATA={
       "materials": []
     }
   ],
-  "centerPhoto": "assets/full-vitay-2.png",
+  "centerPhoto": "assets/full-vitay-3.png",
   "empireMigration": 1,
   "modernMigration": 2,
   "portraitPositions": {},

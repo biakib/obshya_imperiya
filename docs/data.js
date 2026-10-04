@@ -4,7 +4,7 @@ window.INITIAL_DATA={
   "people": [
     {
       "id": "vitay",
-      "name": "Витай Викторович",
+      "name": "Виталий Викторович",
       "role": "Центр карты",
       "photo": "assets/full-cover.png"
     },

@@ -213,16 +213,15 @@ window.INITIAL_DATA={
     },
     {
       "id": "events",
-      "name": "События",
+      "name": "Мероприятия",
       "people": [
-        "ilya",
-        "denis",
-        "nikolay"
+        "alena"
       ],
-      "parentId": "sport",
+      "parentId": null,
       "note": "",
       "url": "",
-      "status": "В работе"
+      "status": "В работе",
+      "responsibleId": "alena"
     },
     {
       "id": "media",
@@ -526,6 +525,42 @@ window.INITIAL_DATA={
       "responsibleId": "ivan",
       "note": "Проекты и направления Ивана Егорова",
       "status": "В работе",
+      "tasks": [],
+      "materials": []
+    },
+    {
+      "id": "legal-project",
+      "name": "Юридический проект",
+      "parentId": null,
+      "people": [
+        "petr"
+      ],
+      "responsibleId": "petr",
+      "status": "В работе",
+      "note": "",
+      "tasks": [],
+      "materials": []
+    },
+    {
+      "id": "art-digital-intelligence",
+      "name": "Арт диджитал интеллект",
+      "parentId": "events",
+      "people": [],
+      "status": "В работе",
+      "note": "",
+      "tasks": [],
+      "materials": []
+    },
+    {
+      "id": "social-reception",
+      "name": "Светский раут",
+      "parentId": "events",
+      "people": [
+        "alena"
+      ],
+      "responsibleId": "alena",
+      "status": "В работе",
+      "note": "",
       "tasks": [],
       "materials": []
     }
